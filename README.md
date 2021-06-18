@@ -1,6 +1,6 @@
 # :zap: Next Bootstrap Portfolio
 
-* A Next.js app to show a portfolio using Bootswatch styles.
+* A Next.js app to show a person's portfolio using Bootswatch styles.
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/next-apollo-crypto?style=plastic)
@@ -27,7 +27,7 @@
 * Displays my portfolio info.
 * Bootstrap [navbar](https://getbootstrap.com/docs/4.0/components/navbar/), [progress bar](https://getbootstrap.com/docs/4.0/components/progress/) used
 * [Vercel Next.js](https://nextjs.org/) is for server-rendered react apps. It has automatic code splitting, simple page-based routing, built-in CSS support and hot reloading. Every component file in the pages folder is treated as a page.
-* [Next Custome `Document`](https://nextjs.org/docs/advanced-features/custom-document)
+* [Next Custom `Document`](https://nextjs.org/docs/advanced-features/custom-document)
 
 ## :camera: Screenshots
 
@@ -39,28 +39,42 @@
 * [React v17](https://reactjs.org/) Javascript library.
 * [Next v10](https://nextjs.org/) minimalist framework for rendering react apps on the server.
 * [Bootstrap v5](https://getbootstrap.com/)
-* [NProgress bars](https://www.npmjs.com/package/nprogress)
+* [Bootswatch v5](https://bootswatch.com/) theme
+* [NProgress bars v0.2.0](https://www.npmjs.com/package/nprogress), requires nprogress.css, imported in `_document.js`
+* [Classnames v2](https://www.npmjs.com/package/classnames) JavaScript utility for conditionally joining classNames together.
 
 ## :floppy_disk: Setup
 
 * `npm run dev` runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-* `npm run build` builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
 
 ## :computer: Code Examples
 
-* extract of tba
+* `Layout.js` effects to handle navigation
 
 ```javascript
-tba
+	useEffect(() => {
+    const handleRouteChange = (url) => {
+      NProgress.start();
+    }
+
+		router.events.on("routeChangeStart", handleRouteChange);
+		router.events.on("routeChangeComplete", () => NProgress.done());
+		router.events.on("routeChangeError", () => NProgress.done());
+
+		return () => {
+			router.events.off("routeChangeStart", handleRouteChange);
+		};
+	}, []);
 ```
 
 ## :clipboard: Status & To-Do List
 
-* Status: In work
-* To-Do: complete
+* Status: Working
+* To-Do: improve styling, update data, fix menu toggle if needed,
 
 ## :clap: Inspiration
 
+* [Fazt code: Nextjs Portafolio Simple | Ejemplo Práctico de Next.js](https://www.youtube.com/watch?v=Ywj6YGgE5RI) in Spanish
 * [Pagepro: PROS AND CONS OF NEXTJS IN 2021](https://pagepro.co/blog/pros-and-cons-of-nextjs/)
 
 ## :file_folder: License
