@@ -1,6 +1,6 @@
 # :zap: Next Bootstrap Portfolio
 
-* A Next.js app to show a person's portfolio using Bootswatch styles.
+* A Next.js app to show a person's portfolio using HTML, Javascript & Bootstrap/Bootswatch styling.
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/next-apollo-crypto?style=plastic)
@@ -24,7 +24,6 @@
 
 ## :books: General Info
 
-* Displays my portfolio info.
 * Bootstrap [navbar](https://getbootstrap.com/docs/4.0/components/navbar/), [progress bar](https://getbootstrap.com/docs/4.0/components/progress/) used
 * [Vercel Next.js](https://nextjs.org/) is for server-rendered react apps. It has automatic code splitting, simple page-based routing, built-in CSS support and hot reloading. Every component file in the pages folder is treated as a page.
 * [Next Custom `Document`](https://nextjs.org/docs/advanced-features/custom-document)
@@ -70,7 +69,7 @@
 ## :clipboard: Status & To-Do List
 
 * Status: Working
-* To-Do: improve styling, update data, fix menu toggle if needed,
+* To-Do: Test SSR, improve styling, update data, fix menu toggle if needed,
 
 ## :clap: Inspiration
 
@@ -79,7 +78,7 @@
 
 ## :file_folder: License
 
-* This project is licensed under the terms of the MIT license.
+* N/A
 
 ## :envelope: Contact
 
