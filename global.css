@@ -25,6 +25,6 @@ div#__next > div {
 }
 
 #nprogress .spinner-icon {
-  border-top-color: green;
-  border-left-color: green;
+  border-top-color: blue;
+  border-left-color: blue;
 }
