@@ -17,16 +17,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "react/jsx-dev-runtime");
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var jquery_dist_jquery_min_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! jquery/dist/jquery.min.js */ "jquery/dist/jquery.min.js");
-/* harmony import */ var jquery_dist_jquery_min_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(jquery_dist_jquery_min_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _popperjs_core_dist_umd_popper_min_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @popperjs/core/dist/umd/popper.min.js */ "@popperjs/core/dist/umd/popper.min.js");
-/* harmony import */ var _popperjs_core_dist_umd_popper_min_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_popperjs_core_dist_umd_popper_min_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var bootswatch_dist_spacelab_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bootswatch/dist/spacelab/bootstrap.min.css */ "./node_modules/bootswatch/dist/spacelab/bootstrap.min.css");
-/* harmony import */ var bootswatch_dist_spacelab_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(bootswatch_dist_spacelab_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var animate_css_animate_min_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! animate.css/animate.min.css */ "./node_modules/animate.css/animate.min.css");
-/* harmony import */ var animate_css_animate_min_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(animate_css_animate_min_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _global_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../global.css */ "./global.css");
-/* harmony import */ var _global_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_global_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var bootswatch_dist_spacelab_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootswatch/dist/spacelab/bootstrap.min.css */ "./node_modules/bootswatch/dist/spacelab/bootstrap.min.css");
+/* harmony import */ var bootswatch_dist_spacelab_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootswatch_dist_spacelab_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var animate_css_animate_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! animate.css/animate.min.css */ "./node_modules/animate.css/animate.min.css");
+/* harmony import */ var animate_css_animate_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(animate_css_animate_min_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _global_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../global.css */ "./global.css");
+/* harmony import */ var _global_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_global_css__WEBPACK_IMPORTED_MODULE_3__);
 
 var _jsxFileName = "C:\\Users\\gomez\\code\\next-bootstrap-portfolio\\pages\\_app.js";
 
@@ -39,15 +35,13 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-
-
 function MyApp({
   Component,
   pageProps
 }) {
   return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, _objectSpread({}, pageProps), void 0, false, {
     fileName: _jsxFileName,
-    lineNumber: 8,
+    lineNumber: 6,
     columnNumber: 9
   }, this);
 }
@@ -84,28 +78,6 @@ function MyApp({
 
 /***/ }),
 
-/***/ "@popperjs/core/dist/umd/popper.min.js":
-/*!********************************************************!*\
-  !*** external "@popperjs/core/dist/umd/popper.min.js" ***!
-  \********************************************************/
-/***/ (function(module) {
-
-"use strict";
-module.exports = require("@popperjs/core/dist/umd/popper.min.js");;
-
-/***/ }),
-
-/***/ "jquery/dist/jquery.min.js":
-/*!********************************************!*\
-  !*** external "jquery/dist/jquery.min.js" ***!
-  \********************************************/
-/***/ (function(module) {
-
-"use strict";
-module.exports = require("jquery/dist/jquery.min.js");;
-
-/***/ }),
-
 /***/ "react/jsx-dev-runtime":
 /*!****************************************!*\
   !*** external "react/jsx-dev-runtime" ***!
@@ -128,4 +100,4 @@ var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
 module.exports = __webpack_exports__;
 
 })();
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9uZXh0LWJvb3RzdHJhcC1wb3J0Zm9saW8vLi9wYWdlcy9fYXBwLmpzIiwid2VicGFjazovL25leHQtYm9vdHN0cmFwLXBvcnRmb2xpby9leHRlcm5hbCBcIkBwb3BwZXJqcy9jb3JlL2Rpc3QvdW1kL3BvcHBlci5taW4uanNcIiIsIndlYnBhY2s6Ly9uZXh0LWJvb3RzdHJhcC1wb3J0Zm9saW8vZXh0ZXJuYWwgXCJqcXVlcnkvZGlzdC9qcXVlcnkubWluLmpzXCIiLCJ3ZWJwYWNrOi8vbmV4dC1ib290c3RyYXAtcG9ydGZvbGlvL2V4dGVybmFsIFwicmVhY3QvanN4LWRldi1ydW50aW1lXCIiXSwibmFtZXMiOlsiTXlBcHAiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUVlLFNBQVNBLEtBQVQsQ0FBZTtBQUFFQyxXQUFGO0FBQWFDO0FBQWIsQ0FBZixFQUF5QztBQUN2RCxzQkFBTyw4REFBQyxTQUFELG9CQUFlQSxTQUFmO0FBQUE7QUFBQTtBQUFBO0FBQUEsVUFBUDtBQUNBLEM7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FDUkQsbUU7Ozs7Ozs7Ozs7O0FDQUEsdUQ7Ozs7Ozs7Ozs7O0FDQUEsbUQiLCJmaWxlIjoicGFnZXMvX2FwcC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAnanF1ZXJ5L2Rpc3QvanF1ZXJ5Lm1pbi5qcydcclxuaW1wb3J0ICdAcG9wcGVyanMvY29yZS9kaXN0L3VtZC9wb3BwZXIubWluLmpzJ1xyXG5pbXBvcnQgJ2Jvb3Rzd2F0Y2gvZGlzdC9zcGFjZWxhYi9ib290c3RyYXAubWluLmNzcyc7XHJcbmltcG9ydCAnYW5pbWF0ZS5jc3MvYW5pbWF0ZS5taW4uY3NzJztcclxuaW1wb3J0ICcuLi9nbG9iYWwuY3NzJztcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIE15QXBwKHsgQ29tcG9uZW50LCBwYWdlUHJvcHMgfSkge1xyXG5cdHJldHVybiA8Q29tcG9uZW50IHsuLi5wYWdlUHJvcHN9IC8+O1xyXG59XHJcbiIsIm1vZHVsZS5leHBvcnRzID0gcmVxdWlyZShcIkBwb3BwZXJqcy9jb3JlL2Rpc3QvdW1kL3BvcHBlci5taW4uanNcIik7OyIsIm1vZHVsZS5leHBvcnRzID0gcmVxdWlyZShcImpxdWVyeS9kaXN0L2pxdWVyeS5taW4uanNcIik7OyIsIm1vZHVsZS5leHBvcnRzID0gcmVxdWlyZShcInJlYWN0L2pzeC1kZXYtcnVudGltZVwiKTs7Il0sInNvdXJjZVJvb3QiOiIifQ==
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9uZXh0LWJvb3RzdHJhcC1wb3J0Zm9saW8vLi9wYWdlcy9fYXBwLmpzIiwid2VicGFjazovL25leHQtYm9vdHN0cmFwLXBvcnRmb2xpby9leHRlcm5hbCBcInJlYWN0L2pzeC1kZXYtcnVudGltZVwiIl0sIm5hbWVzIjpbIk15QXBwIiwiQ29tcG9uZW50IiwicGFnZVByb3BzIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUE7QUFDQTtBQUNBO0FBRWUsU0FBU0EsS0FBVCxDQUFlO0FBQUVDLFdBQUY7QUFBYUM7QUFBYixDQUFmLEVBQXlDO0FBQ3ZELHNCQUFPLDhEQUFDLFNBQUQsb0JBQWVBLFNBQWY7QUFBQTtBQUFBO0FBQUE7QUFBQSxVQUFQO0FBQ0EsQzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUNORCxtRCIsImZpbGUiOiJwYWdlcy9fYXBwLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICdib290c3dhdGNoL2Rpc3Qvc3BhY2VsYWIvYm9vdHN0cmFwLm1pbi5jc3MnO1xyXG5pbXBvcnQgJ2FuaW1hdGUuY3NzL2FuaW1hdGUubWluLmNzcyc7XHJcbmltcG9ydCAnLi4vZ2xvYmFsLmNzcyc7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBNeUFwcCh7IENvbXBvbmVudCwgcGFnZVByb3BzIH0pIHtcclxuXHRyZXR1cm4gPENvbXBvbmVudCB7Li4ucGFnZVByb3BzfSAvPjtcclxufVxyXG4iLCJtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCJyZWFjdC9qc3gtZGV2LXJ1bnRpbWVcIik7OyJdLCJzb3VyY2VSb290IjoiIn0=
