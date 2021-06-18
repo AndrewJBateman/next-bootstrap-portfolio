@@ -7,7 +7,7 @@ const Index = () => (
 	<Layout>
 		<header className="row">
 			<div className="col-md-12">
-				<div className="card card-body bg-secondary text-light">
+				<div className="card card-body bg-secondary text-light animate__animated animate__fadeIn">
 					<div className="row">
 						<div className="col-md-4">
 							<img src="profile.jpeg" alt="" className="img-fluid"/>

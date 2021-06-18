@@ -5,14 +5,13 @@ const Github = ({ user, statusCode }) => {
   if (statusCode) {
     return <Error statusCode={statusCode} />;
   }
-  console.log('user data: ', user);
 
   return (
     <Layout title="My Github" footer={false} dark>
       <div className="row">
         <div className="col-md-4 offset-md-4">
           <div className="text-center card card-body">
-            <h1>{user.name}</h1>
+            <h2>{user.name}</h2>
             <img src={user.avatar_url} alt="" style={{ width: "100%" }} />
             <p>{user.bio}</p>
             <a

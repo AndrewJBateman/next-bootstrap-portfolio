@@ -9,7 +9,6 @@ const Post = () => {
 	const currentPost = posts.filter(
 		(post) => post.title === router.query.title
 	)[0];
-  console.log('post: ', currentPost);
 
 	return (
 		<Layout title={router.query.title} footer={false}>

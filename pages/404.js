@@ -6,7 +6,7 @@ const custom404 = () => (
     <div className="text-center">
       <h1 className="display-1">404</h1>
       <p>
-        This page does not exist. Return {" "}
+        This page does not exist. Return{" "}
         <Link href="/">
           <a>Home</a>
         </Link>
