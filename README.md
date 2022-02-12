@@ -34,9 +34,9 @@
 
 ## :signal_strength: Technologies
 
-* [Node.js v14](https://nodejs.org/) javascript runtime using the [Chrome V8 engine](https://v8.dev/).
+* [Node.js v16](https://nodejs.org/) javascript runtime using the [Chrome V8 engine](https://v8.dev/).
 * [React v17](https://reactjs.org/) Javascript library.
-* [Next v10](https://nextjs.org/) minimalist framework for rendering react apps on the server.
+* [Next v12](https://nextjs.org/) minimalist framework for rendering react apps on the server.
 * [Bootstrap v5](https://getbootstrap.com/)
 * [Bootswatch v5](https://bootswatch.com/) theme
 * [NProgress bars v0.2.0](https://www.npmjs.com/package/nprogress), requires nprogress.css, imported in `_document.js`
@@ -69,7 +69,7 @@
 ## :clipboard: Status & To-Do List
 
 * Status: Working
-* To-Do: Test SSR, improve styling, update data, fix menu toggle if needed,
+* To-Do: Test SSR, improve styling, update data, fix menu burger button toggle if needed,
 
 ## :clap: Inspiration
 
